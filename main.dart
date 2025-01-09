@@ -3,9 +3,11 @@ void main (){
     double altura = 1.85;
     bool geek = (idade == altura);  
     String frase = "Hello World"; 
-    
-    print(idade); 
-    print(altura);
+
+    print("Minha idade é de $idade"); 
+    print("Minha altura é de $altura m ");
     print(geek);
-    print(frase);
+    print("Meu primeiro código em Dart: $frase");
+    List <String> Nomes = ['Ricarth', 'Natália' , 'Alex', 'Ândriu', 'André' ];
+    print(Nomes);
 }
